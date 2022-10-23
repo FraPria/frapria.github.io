@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://frapria.github.io'  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:  # the subpath of your site, e.g. "/blog"
 
 # Title of the Site
 title: FraPria
