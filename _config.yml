@@ -7,13 +7,13 @@ url: 'https://frapria.github.io'  # the base hostname & protocol for your site e
 baseurl:  # the subpath of your site, e.g. "/blog"
 
 # Title of the Site
-title: FraPria
+title: Francesca Priante
 # Description of the Site
 description: ''
 # URL of Image of the Site
 site-image: /assets/images/eindhoven.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Complex systems
 # URL for the Image of custom Favicon
 favicon-url: 
 
