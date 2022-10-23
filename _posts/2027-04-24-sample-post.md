@@ -11,11 +11,8 @@ tags:
 ---
 
 
-{% include image-gallery.html folder="/assets/images/" %}
+{% include image-gallery.html folder="/assets/pics/" %}
 
-
-
-![video link](/assets/images/eindhoven.jpg)
 
 
 This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
