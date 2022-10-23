@@ -58,6 +58,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-art-gallery-generator
 
 # Permalink
 permalink: "blog/:title"
