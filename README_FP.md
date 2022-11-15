@@ -49,3 +49,9 @@ Step 3. Add the following line to your layout on the place where you want the im
 
 
 problem: broken images
+
+## How to add highlightinh
+https://bnhr.xyz/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+
+demo page to choose the right highlighting 
+https://spsarolkar.github.io/rouge-theme-preview/

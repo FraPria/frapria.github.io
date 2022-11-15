@@ -1,9 +1,6 @@
 # WhatATheme
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
 
 # URL of the Site
 url: 'https://frapria.github.io'  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
