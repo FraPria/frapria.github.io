@@ -55,9 +55,11 @@ layout: compress
             {%- endunless -%}
           </div>
         </div>
+        <div class="column is-10 is-offset-1"> <!-- Adde FP to make to post slimmer-->
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
         </div>
+      </div>
         {% unless site.disqus-shortname == "" %}
         <div class="disqus-comments" id="disqus_thread"></div>
         {% endunless %}
