@@ -20,17 +20,17 @@ layout: compress
         </a>
         <hr class="has-background-black">
         <div class="columns is-variable is-5">
-          <!-- #FP -->
-          <!-- <div class="column is-6"> --> 
-            <!-- <div class="column is-3">  -->
-            <div class="column is-3 is-offset-1">
-            <figure class="image is-16by9 has-shadow">
+            <div class="column is-5 is-offset-1">
+              <!-- FP -->
+              <figure class="image has-shadow"> <!-- Don't want the image to be stretched, but cropped -->
+            <!-- <figure class="image is-16by9 has-shadow"> -->
               <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
             </figure>
           </div>
           <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.description.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
+            <p id="description" class="content is-small has-text-weight-medium">{{page.description | strip | strip_html | strip_newlines }}</p> <!-- I don't want upper case in description FP-->
+            <!-- <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p> -->
             {% endunless %}
             <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
               <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
@@ -48,11 +48,12 @@ layout: compress
             </p>
             {%- endunless -%}
             {% assign words = content | number_of_words %}
-            {%- unless content.size == 0 -%}
+            <!-- Don't want the minutes read -->
+            <!-- {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
               </b>READ</p>
-            {%- endunless -%}
+            {%- endunless -%} -->
           </div>
         </div>
         <div class="column is-10 is-offset-1"> <!-- Adde FP to make to post slimmer-->
