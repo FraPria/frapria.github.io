@@ -317,7 +317,8 @@ a.navbar-item.is-active {
         margin: 0.15rem auto;
     }
     .content {
-        font-size: 1.2rem;  /* FP change font size of posts*/
+        // font-size: 1.2rem;  /* FP change font size of posts*/
+        font-size: 1.2vw; 
         ol, ul, blockquote {
             display: inline-block;
         }
