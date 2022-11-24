@@ -14,7 +14,7 @@ description: ''
 # URL of Image of the Site
 site-image: /assets/images/eindhoven.jpg
 # Keywords of the Site
-site-keywords: Complex systems,
+site-keywords: Complex systems, computer science
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -50,11 +50,6 @@ author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/FraPria
 
-
-# highlighter: rouge # FP to highlight the code
-# kramdown: # FP to highlight the code
-#   math_engine: mathjax # FP to highlight the code
-#   syntax_highlighter: rouge # FP to highlight the code
 
 # SASS
 sass:
