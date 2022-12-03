@@ -5,7 +5,7 @@ post-image: "/assets/images/2022_12_03_flock_animation/app_screen2.png"
 description: Create easily an interactive app of your python projects with Streamlit.
 tags:
 - Python
-- Stremlit
+- Streamlit
 ---
 
 Here I show how to develop a simple interactive app using Streamlit package in Python. The aim of the app is to plot flocks animations with different user-defined parameters. To have a deeper insight on the algorithm used to produce flocks patter, take a look on my previous post on [boids algorithm]({% post_url 2022-09-17-flocks %}).
@@ -169,6 +169,12 @@ More details in my github page [https://frapria.github.io/blog/flocks](https://f
 animation_demo()     
 show_code(animation_demo)
 ```
+
+To run the app yopu just need to run this line of code in bash
+```bash
+streamlit run flock_app.py 
+```
+and you just need to copy the Local URL that is displayed and paste it in whatever browser you use.
 
 ## Deployment
 Hehe this is a sore subject!
