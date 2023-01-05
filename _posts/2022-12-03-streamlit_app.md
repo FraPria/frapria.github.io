@@ -89,7 +89,7 @@ In this block we run the algorithm and save the birds position in a (L*2+margin)
 The matrix N is initially filled with zeros, and then, after running the _move()_ function, each boid position is updated with a 1. This is also used to color the pixel on screen: a value of 1 means white, and a value of 0 means black. 
 
 __Resolution problem:__
-In order to have smooth movements I chose the plot to be 940 pixels wide (L*2+margin). But this means that is almost impossible to see a single boid (so a single pixel) moving using an ordinary screen. So I needed to increase the size of the points from 1 pixel to 5 pixels. To do so I shifted and added up the matrix to 1 pixel to the right, left, up, down. The boids was then no more represented by a single pixel, but 5 pixels forming a cross.
+In order to have smooth movements I chose the plot to be 940 pixels wide (L*2+margin). But this means that it is almost impossible to see a single boid (so a single pixel) moving using an ordinary screen. So I needed to increase the size of the points from 1 pixel to 5 pixels. To do so I shifted and added up the matrix to 1 pixel to the right, left, up and down. The boid was then no more represented by a single pixel, but 5 pixels forming a cross.
 This was enough to improve the visibility of the boids.
 
 
