@@ -1,6 +1,8 @@
 To run the site locally
 bundle exec jekyll s --incremental
 
+(or bundle exec jekyll serve)
+
 Extension to work with Latex syntax:
 http://www.iangoodfellow.com/blog/jekyll/markdown/tex/2016/11/07/latex-in-markdown.html 
 

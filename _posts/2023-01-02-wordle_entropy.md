@@ -9,12 +9,6 @@ tags:
 - R
 ---
 
-<style>
-    body {
-        line-height: 1.5em;
-        text-align: justify
-    }
-</style>
 
 
 [Wordle](https://www.nytimes.com/games/wordle/index.html) is an online game designed by Josh Wardle (no pun intended). The goal is to guess a 5 letters word, given 3 types of clues derived by the game: right letter in the right place (green), right letter but in the wrong place (yellow) and the letter is not in the target word (grey).
