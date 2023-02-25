@@ -20,7 +20,10 @@ Also the neural network series [But what is a neural network?](https://www.youtu
 # Physics
 - Veritasium: well explained physics. If you want to start an existential questioning, I suggest [Parallel Worlds Probably Exist. Here’s Why](https://www.youtube.com/watch?v=kTXTPe3wahc)
 
+# Data science
+- Cool data analysis and vizualizations: https://pudding.cool/
 
 # Other science & Technology
 - Simone Giertz
 - Kurzgesagt - In a nutshell: Great animations and divulgation. I love the video "[What Happens If We Throw an Elephant From a Skyscraper?](https://www.youtube.com/watch?v=f7KSfjv4Oq0)"
+- Matt Henderson

@@ -180,3 +180,6 @@ and you just need to copy the Local URL that is displayed and paste it in whatev
 Hehe this is a sore subject!
 I have tried to doploy this app on both HuggingFace and Streamlit cloud, but I would require more resources that I am available of. In HuggingFace the app is formally running, but the animation is irregular, unsmooth and crappy. I should buy CPUs to make it work, but for now, I don't see any benefits.
 
+To run it locally you can clone my repository:
+[https://github.com/FraPria/boids_algorithm_app](https://github.com/FraPria/boids_algorithm_app)
+
