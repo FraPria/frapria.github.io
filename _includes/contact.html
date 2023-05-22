@@ -42,6 +42,9 @@
                 {% unless site.github_username ==  %}
                 <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
                 {% endunless %}
+                {% unless site.mastodon_username ==  %} <!-- FP -->
+                <a href="https://mathstodon.xyz/@{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-mastodon"></i></a>
+                {% endunless %}
                 {% unless site.youtube_channel_id ==  %}
                 <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
                 {% endunless %}

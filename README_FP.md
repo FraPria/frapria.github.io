@@ -22,10 +22,6 @@ https://github.com/ggreer/jekyll-gallery-generator/issues/20
 
 togli l'elenco puntito nei tag <li>
 
-# Non ho ancora provato
-https://jekyllcodex.org/without-plugin/image-gallery/#
-
-
 
 ## Tentativo 2
 http://jekyllcodex.org/without-plugin/lightbox/#
@@ -50,8 +46,15 @@ Step 3. Add the following line to your layout on the place where you want the im
 
 problem: broken images
 
-## How to add highlightinh
+## How to add highlighting
 https://bnhr.xyz/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
 
 demo page to choose the right highlighting 
 https://spsarolkar.github.io/rouge-theme-preview/
+
+
+## gallery da provare
+
+https://jekyllcodex.org/without-plugin/image-gallery/#
+
+https://github.com/opieters/jekyll-image-gallery-example

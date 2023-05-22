@@ -82,7 +82,7 @@ def animation_demo():
 
     frame_text = st.sidebar.empty()
 ```
-### 2. Run the algorith
+### 2. Run the algorithm
 In this block we run the algorithm and save the birds position in a (L*2+margin) x (L*2+margin) matrix __N__. L*2+margin is the plot width and height, _margin_ parameter is used to keep the birds at distance from the wall, otherwise they somethime cross the boundaries, rising an error. This matrix is updated at every time step.
 
 ### 3. Show animation plot
