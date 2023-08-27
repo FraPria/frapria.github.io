@@ -1,5 +1,5 @@
 ---
-title: My favourite science bloggers
+title: My favourite science bloggers and communicators
 layout: post
 post-image: #"/assets/images/flocks/00_false_knees.jpeg"
 description: A collection of inspiring people doing math, physics and technology.
@@ -15,6 +15,10 @@ Also the neural network series [But what is a neural network?](https://www.youtu
 
 - [Ask a mathematician, ask a physicist](https://www.askamathematician.com): they answer non trivial questions from their followers. I suggest to read this about the relationship between [thermodynamics entropy and information theory entropy](https://www.askamathematician.com/2010/01/q-whats-the-relationship-between-entropy-in-the-information-theory-sense-and-the-thermodynamics-sense/)
 - Primer
+- Numberphile
+- Hannah Fry: she talks about math in every day life. I suggest the video from Stand-Up math [The Mathematics of Winning Monopoly
+](https://www.youtube.com/watch?v=ubQXz5RBBtU)
+- Vsauce 2
 
 # Physics
 - Veritasium: well explained physics. If you want to start an existential questioning, I suggest [Parallel Worlds Probably Exist. Here’s Why](https://www.youtube.com/watch?v=kTXTPe3wahc)

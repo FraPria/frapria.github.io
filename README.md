@@ -1,4 +1,5 @@
 To run the site locally
+conda activate jekyll_env
 bundle exec jekyll s --incremental
 
 (or bundle exec jekyll serve)
