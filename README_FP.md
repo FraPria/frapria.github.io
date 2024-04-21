@@ -20,7 +20,7 @@ problem: I cannot give names to the pictures
 it does not work in github pages 
 https://github.com/ggreer/jekyll-gallery-generator/issues/20
 
-togli l'elenco puntito nei tag <li>
+togli l'elenco puntato nei tag <li>
 
 
 ## Tentativo 2
@@ -58,3 +58,82 @@ https://spsarolkar.github.io/rouge-theme-preview/
 https://jekyllcodex.org/without-plugin/image-gallery/#
 
 https://github.com/opieters/jekyll-image-gallery-example
+
+https://github.com/gautamkrishnar/github-pages-gallery?tab=readme-ov-file
+
+https://www.youtube.com/watch?v=uYh7b2V0pyA 
+
+
+-------------
+ChatGPT:
+
+Hi, I have a personal website hosted by GitHub pages. I used Jekyll to build it. I would like to add a gallery for my photographies. How can I do? Without using plugins
+
+
+Certainly! If you prefer not to use plugins, you can create a simple gallery manually using Jekyll and HTML. Here's an alternative approach:
+
+Step 1: Organize Your Photos
+Just like before, organize your photos in a specific folder within your Jekyll project (e.g., _photos).
+
+Step 2: Create a Gallery Page
+Create a new markdown file (e.g., gallery.md) in your _pages folder with the following content:
+
+markdown
+Copy code
+---
+layout: page
+title: Photo Gallery
+---
+
+<h1>Photo Gallery</h1>
+
+<div class="gallery">
+  {% for photo in site.static_files %}
+    {% if photo.path contains '/_photos/' %}
+      <img src="{{ site.baseurl }}{{ photo.path }}" alt="{{ photo.name }}">
+    {% endif %}
+  {% endfor %}
+</div>
+Step 3: Style Your Gallery
+Create a new CSS file (e.g., styles.css) in your _sass folder or in the root of your project. Add some basic styles for your gallery:
+
+css
+Copy code
+/* _sass/styles.css */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+Step 4: Link the Stylesheet
+In your _layouts/default.html file, link the stylesheet by adding the following line inside the <head> section:
+
+html
+Copy code
+<head>
+  <!-- other head elements -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+</head>
+Step 5: Run Jekyll Locally
+Run your Jekyll site locally:
+
+bash
+Copy code
+bundle exec jekyll serve
+Visit http://localhost:4000/gallery in your browser to see the preview of your photo gallery.
+
+Step 6: Push Changes to GitHub
+Commit and push your changes to GitHub:
+
+bash
+Copy code
+git add .
+git commit -m "Add photo gallery without plugins"
+git push origin master
+This method manually iterates through static files and includes images from the specified folder, creating a simple gallery without relying on external plugins. Adjust the styles and layout based on your preferences.

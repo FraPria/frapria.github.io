@@ -444,3 +444,16 @@ a.navbar-item.is-active {
     margin: 0 auto;
     display: block;
 }
+
+
+// GALLERY FP
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
