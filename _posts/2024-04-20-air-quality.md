@@ -94,7 +94,7 @@ Alla Stazione Lingotto le concentrazioni di NO2 sono notevolmente più basse di 
 
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/03_NO2_2022_hours.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/03_NO2_2022_hours.png" width="100%" />
 </p>
 <p align="center">
 <em>Andamento orario medio delle emissioni di NO2 nel 2022 (0.95 CI)</em>
@@ -107,7 +107,7 @@ In particolare nella fascia 6:00-12:00 c'è la riduzione massima di concentrazio
 Nelle ore serali le concentrazioni del weekend ritornano confrontabili con quelle dei giorni lavorativi.
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/03_NO2_2022_hours_weekend_vs_weekday.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/03_NO2_2022_hours_weekend_vs_weekday.png" width="100%" />
 </p>
 <p align="center">
 <em>Andamento orario medio delle emissioni di NO2 nel 2022, divise per tipologia di giorno settimanale e per stazione.</em>
@@ -122,12 +122,17 @@ Durante il lockdown per COVID19 del 2020, tutte le persone dovevano restare a ca
 I valori medi orari di NO2 durante il periodo di lockdown sono stati i più bassi degli ultimi 3 anni e addirittura inferiori dei due anni successivi. È particolarmente sorprendente notare che la media per l'intero periodo di lockdown del 2020 presso la stazione della Consolata è stata di 26 µg/m³, mentre nello stesso periodo dell'anno precedente era di 51.9 µg/m³, indicando quindi una riduzione delle emissioni pari al 50%.
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/03_NO2_hourly_covid_period.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/03_NO2_hourly_covid_period.png" width="100%" />
 </p>
 <p align="center">
       <em>Medie orarie di concentrazioni di NO2 in un intervallo di tempo che va dal 9 Marzo al 18 Marzo per tutti gli anni considerati. La curva rossa identifica il periodo di lockdown </em>
 </p>
 
+
+<!-- | Stazione  | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 |
+| :-: |:-: | :-: |:-: | :-: |:-:|:-:|
+| Torino - Consolata  | 58.60 | 51.39 | 51.94 | 26.07 | 40.82 | 39.27 |
+| Torino - Lingotto  | 39.31 | 35.92 | 32.06 | 22.52 | 27.34 | 40.35 | -->
 
 
 ## Andamento annuale NO2
@@ -145,7 +150,7 @@ Tuttavia, nel 2006, questa soglia è stata ampiamente superata, con 38 ore di su
 
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/03_NO2_limiti.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/03_NO2_limiti.png" width="100%" />
 </p>
 <p align="center">
       <em>Andamento annuale delle emissioni di NO2 e rispettivi limiti di legge (linee tratteggiate)</em>
@@ -155,7 +160,7 @@ Tuttavia, nel 2006, questa soglia è stata ampiamente superata, con 38 ore di su
 Infatti, le olimpiadi del 2006, si sono svolte a Torino, in particolare nel quartiere di Torino Lingotto e la stazione di Torino lingotto è molto vicina alle sedi delle olimpiadi come mostrato nella figura seguente.
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/olimpics.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/olimpics.png" width="100%" />
 </p>
 
 
@@ -170,7 +175,7 @@ in questo periodo.
 
 
 <p align="center">
-  <img src="/assets/images/2024-04-20-air_quality/03_NO2_years_days_heatmap.png" width="500" />
+  <img src="/assets/images/2024-04-20-air_quality/03_NO2_years_days_heatmap.png" width="100%" />
 </p>
 <p align="center">
       <em>Effetti delle olimpiadi (10-26 febbraio 2006): la heatmap mostra le concentrazioni di NO2 misurate dalla Stazione di Torino Lingotto a fissato giorno e anno dal 2003 al 2022.</em>
