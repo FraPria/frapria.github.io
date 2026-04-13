@@ -1,0 +1,15 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        MAPPE
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+        {% for map in site.data.maps %}
+        {% if map.url and map.name %}
+        <a href="{{ map.url | absolute_url }}"
+            class="navbar-item has-text-grey-light {% if page.url == map.url %}is-active{% endif %}">
+            {{ map.name }}
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -91,6 +91,38 @@ a.navbar-item.is-active {
         justify-content: center;
     }
 
+    .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.6rem;
+        margin-top: 1rem;
+    }
+
+    .contact-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        border: 1px solid black;
+        border-radius: 999px;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+        line-height: 1;
+        text-decoration: none;
+        transition: all 0.15s ease-in-out;
+
+        &:hover {
+            background-color: black;
+            color: white !important;
+        }
+
+        i,
+        svg {
+            margin: 0 !important;
+        }
+    }
+
     svg {
         transition: all 0.15s ease-in-out;
         margin: auto 0.75vmax;

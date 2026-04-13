@@ -28,10 +28,7 @@
                 <!-- <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/gallery">GALLERY</a> --> <!-- SCOMMENTA QUESTO PER AVERE LA GALLERY [FP] -->
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
-                    {% comment %}
-                    FP
-                    {% include dropdown.html %}
-                    {% endcomment %}
+                {% include maps-dropdown.html %}
             </div>
 
         </div>
