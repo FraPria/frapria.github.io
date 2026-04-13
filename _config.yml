@@ -56,7 +56,7 @@ author-url: https://github.com/FraPria
 sass:
   sass_dir: _sass
   style: compressed
-
+ 
 # Build settings
 plugins:
   - jekyll-admin
