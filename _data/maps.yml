@@ -1,6 +1,6 @@
-- name: Censimento Torino
-  url: /mappe/censimento-torino/
-- name: Censimento Padova
-  url: /mappe/censimento-padova/
+# - name: Censimento Torino
+#   url: /mappe/censimento-torino/
+# - name: Censimento Padova
+#   url: /mappe/censimento-padova/
 - name: Censimento Alto Vicentino
   url: /mappe/censimento-alto-vicentino/
